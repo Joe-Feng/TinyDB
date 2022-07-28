@@ -19,4 +19,12 @@ public class Error {
      * 事务管理异常
      */
     public static final Exception BadXIDFileException = new RuntimeException("Bad XID file!");
+
+    /**
+     * 数据管理异常
+     */
+    public static final Exception BadLogFileException = new RuntimeException("Bad log file!");
+    public static final Exception MemTooSmallException = new RuntimeException("Memory too small!");
+    public static final Exception DataTooLargeException = new RuntimeException("Data too large!");
+    public static final Exception DatabaseBusyException = new RuntimeException("Database is busy!");
 }
