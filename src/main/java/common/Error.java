@@ -36,7 +36,7 @@ public class Error {
     public static final Exception NullEntryException = new RuntimeException("Null entry!");
 
     /**
-     * 表管理异常
+     * 表与字段管理异常
      */
     public static final Exception InvalidFieldException = new RuntimeException("Invalid field type!");
     public static final Exception FieldNotFoundException = new RuntimeException("Field not found!");
