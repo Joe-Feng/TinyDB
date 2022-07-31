@@ -51,4 +51,20 @@ public class Error {
      */
     public static final Exception InvalidCommandException = new RuntimeException("Invalid command!");
     public static final Exception TableNoIndexException = new RuntimeException("Table has no index!");
+
+    /**
+     * 传输异常
+     */
+    public static final Exception InvalidPkgDataException = new RuntimeException("Invalid package data!");
+
+    /**
+     * 服务器异常
+     */
+    public static final Exception NestedTransactionException = new RuntimeException("Nested transaction not supported!");
+    public static final Exception NoTransactionException = new RuntimeException("Not in transaction!");
+
+    /**
+     * 启动异常
+     */
+    public static final Exception InvalidMemException = new RuntimeException("Invalid memory!");
 }
